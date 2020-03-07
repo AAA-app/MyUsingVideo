@@ -22,8 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".urlweb.MainActivity" />
-        <activity android:name=".urlweb.WebVideoActivity" />
+        <activity android:name=".activitis.MainActivity" />
+        <activity android:name=".activitis.WebVideoActivity" />
+        <activity android:name=".activitis.MusicActivity" />
     </application>
 
 </manifest>

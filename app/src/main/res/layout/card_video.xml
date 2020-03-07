@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    tools:context=".urlweb.MainActivity">
+    tools:context=".activitis.MainActivity">
 
     <WebView
         android:id="@+id/web_video_view"

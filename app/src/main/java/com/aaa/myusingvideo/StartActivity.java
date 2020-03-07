@@ -3,12 +3,11 @@ package com.aaa.myusingvideo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.aaa.myusingvideo.urlweb.MainActivity;
-import com.aaa.myusingvideo.urlweb.WebVideoActivity;
+import com.aaa.myusingvideo.activitis.MainActivity;
+import com.aaa.myusingvideo.activitis.MusicActivity;
+import com.aaa.myusingvideo.activitis.WebVideoActivity;
 
 public class StartActivity  extends AppCompatActivity {
 
@@ -25,6 +24,11 @@ public class StartActivity  extends AppCompatActivity {
 
     public void StartYoutubeVideo(View view) {
         Intent intent = new Intent(StartActivity.this, WebVideoActivity.class);
+        startActivity(intent);
+    }
+
+    public void StartMp3(View view) {
+        Intent intent = new Intent(StartActivity.this, MusicActivity.class);
         startActivity(intent);
     }
 }
