@@ -1,4 +1,4 @@
-package com.aaa.myusingvideo.activitis;
+package com.aaa.myusingvideo.activities;
 
 import android.os.Bundle;
 

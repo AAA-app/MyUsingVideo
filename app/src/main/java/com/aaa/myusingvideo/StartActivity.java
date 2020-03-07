@@ -5,9 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import com.aaa.myusingvideo.activitis.MainActivity;
-import com.aaa.myusingvideo.activitis.MusicActivity;
-import com.aaa.myusingvideo.activitis.WebVideoActivity;
+import com.aaa.myusingvideo.activities.MainActivity;
+import com.aaa.myusingvideo.activities.MusicActivity;
+import com.aaa.myusingvideo.activities.WebVideoActivity;
 
 public class StartActivity  extends AppCompatActivity {
 

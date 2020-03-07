@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
-    tools:context=".activitis.MainActivity">
+    android:layout_height="350dp"
+    tools:context=".activities.MainActivity">
 
     <WebView
         android:id="@+id/web_video_view"
         android:layout_width="match_parent"
-        android:layout_height="200dp"/>
+        android:layout_height="350dp"/>
 
 </androidx.cardview.widget.CardView>
